@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub - Your Study Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>StudyHub</h1>
+        <nav>
+            <ul>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#tips">Study Tips</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to StudyHub</h2>
+        <p>Boost your learning with resources, tips, and fun quizzes!</p>
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800" alt="Motivational study image" class="hero-image">
+    </section>
+
+    <section id="subjects">
+        <h2>Subjects</h2>
+        <div class="subject-grid">
+            <div class="subject">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" alt="Math books">
+                <h3>Mathematics</h3>
+                <p>Explore algebra, geometry, and more.</p>
+            </div>
+            <div class="subject">
+                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400" alt="Science lab">
+                <h3>Science</h3>
+                <p>Physics, chemistry, and biology resources.</p>
+            </div>
+            <div class="subject">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="History books">
+                <h3>History</h3>
+                <p>Timelines, events, and key figures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Study Tips</h2>
+        <div class="tips-container">
+            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600" alt="Study tips image" class="tips-image">
+            <ul>
+                <li>Set a daily study schedule.</li>
+                <li>Use active recall techniques.</li>
+                <li>Take breaks to avoid burnout.</li>
+                <li>Stay hydrated and eat well.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="quiz">
+        <h2>Quick Quiz</h2>
+        <div id="quiz-container">
+            <p id="question">What is 2 + 2?</p>
+            <button onclick="checkAnswer(4)">4</button>
+            <button onclick="checkAnswer(5)">5</button>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 StudyHub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
